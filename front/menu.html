@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Cardápio</title>
+
+    <!-- FONTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&family=Carter+One&family=Luckiest+Guy&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="cardapio.css" />
+  </head>
+  <body>
+    <!--Davi-->
+    <header>
+      <h1>Meu Negócio Escola</h1>
+      <img src="escolalogo.png" id="logo" />
+      <nav class="navbar">
+        <a href="index.html">Início</a>
+        <a href="menu.html" class="active">Cardápio</a>
+        <a href="lojas.html">Lojas</a>
+        <a href="login.html">Login</a>
+        <a href="cadastroaluno.html">Cadastre-se</a>
+        <a href="cadastroempreendedor.html">Seja um empreendedor!</a>
+      </nav>
+    </header>
+
+
+    <section class="topo">
+      <h2>Cardápio</h2>
+    </section>
+
+    <section class="menu">
+      <div class="produto">
+        <img src="coxinha.jpg" />
+        <h3>Coxinha</h3>
+        <p class="preco">R$5,00</p>
+        <p class="info">Yuri (2º2)</p>
+        <button id="botao5" class="botoes">Adicionar ao carrinho</button>
+      </div>
+
+      <div class="produto">
+        <img src="bolodecoco.jpg" />
+        <h3>Bolo de coco</h3>
+        <p class="preco">R$4,50</p>
+        <p class="info">Juliano (1º4)</p>
+        <button id="botao6" class="botoes">Adicionar ao carrinho</button>
+      </div>
+
+      <div class="produto">
+        <img src="trufa.jpg" />
+        <h3>Trufa</h3>
+        <p class="preco">R$3,00</p>
+        <p class="info">Yuri (2º2)</p>
+        <button id="botao7" class="botoes">Adicionar ao carrinho</button>
+      </div>
+
+      <div class="produto">
+        <img src="cocacola.jpg" />
+        <h3>Coca-cola</h3>
+        <p class="preco">R$3,50</p>
+        <p class="info">Ana (3º1)</p>
+        <button id="botao8" class="botoes">Adicionar ao carrinho</button>
+      </div>
+
+      <div class="produto">
+        <img src="suco.jpg" />
+        <h3>Suco</h3>
+        <p class="preco">R$4,00</p>
+        <p class="info">Pedro (2º3)</p>
+        <button id="botao9" class="botoes">Adicionar ao carrinho</button>
+      </div>
+
+      <div class="produto">
+        <img src="pastel.jpg" />
+        <h3>Pastel</h3>
+        <p class="preco">R$6,00</p>
+        <p class="info">Lucas (1º2)</p>
+        <button id="botao0" class="botoes">Adicionar ao carrinho</button>
+      </div>
+    </section>
+    <section id="sec3">
+      <div id="abrircarrinho">
+        <button id="btnCarrinho2">🛒</button>
+      </div>
+      <div id="carrinho2">
+        <h2>Carrinho</h2>
+        <ul id="listaCarrinho2"></ul>
+        <a href="compra.html">
+          <button class="botoes">Encomendar AGORA</button>
+        </a>
+      </div>
+    </section>
+    <script src="menu.js"></script>
+    <script src="navbar.js"></script>
+  </body>
+</html>
